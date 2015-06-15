@@ -1,0 +1,406 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:200);
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    line-height: 0;
+}
+
+p {
+    font-family: Roboto;
+    font-weight: 200;
+}
+
+body {
+    background-color: #005596;
+    padding-top: 75px;
+    width: 100%;
+    height: 100%;
+}
+
+/* -----------------------------------------
+                HEADER
+----------------------------------------- */
+
+header {
+    max-width: 1640px;
+    height: 56px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 187px;
+}
+
+.searchbox {
+    max-width: 608px;
+    min-width: 140px;
+    height: 43px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 10px;
+    top: 6px;
+}
+
+.searchbox p {
+    font-size: 18px;
+    color: #005596;
+    display: inline-block;
+    position: relative;
+    top: 22px;
+    margin-left: 17px;
+}
+
+.searchbox-icon-container {
+    width: 39px;
+    height: 39px;
+    display: inline-block;
+    position: relative;
+    float: right;
+    background-color: #005596;
+    border-radius: 10px;
+    padding: 6px 7px;
+    margin: 2px 2px 0 0;
+}
+
+.searchbox-icon {
+    width: 25px;
+    height: 27px;
+    background-image: url("images/search.jpg");
+}
+
+.profile-container {
+    width: 200px;
+    height: 56px;
+    position: absolute;
+    right: 0px;
+    top: 75px;
+}
+
+.profile-container p {
+    font-size: 21px;
+    color: #dfeaf2;
+    display: inline-block;
+    margin-left: 10px;
+    position: relative;
+    top: 15px;
+}
+
+.profile-container p span {
+    font-size: 16px;
+    position: relative;
+    top: 24px;
+}
+
+.profile-icon {
+    width: 56px;
+    height: 56px;
+    position: relative;
+    float: left;
+    display: inline-block;
+    background-image: url("images/profile.jpg");
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 1050px) {
+    header {
+        height: 130px;
+        margin-bottom: 113px;
+    }
+    .profile-container {
+        position: relative;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        top: 31px;
+    }
+}
+
+/* -----------------------------------------
+                HEADER
+----------------------------------------- */
+
+/* -----------------------------------------
+                NAVBAR
+----------------------------------------- */
+
+nav {
+    width: 608px;
+    min-height: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+nav > :last-child {margin-right: 0 !important;}
+
+.nav-item {
+    width: 140px;
+    height: 140px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0 16px 16px 0;
+}
+
+.nav-item p {
+    font-size: 16px;
+    color: #0080a1;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+.nav-img1 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    float: left;
+    margin: 0 20px;
+    background-image: url("images/whitebox_1.jpg");
+}
+
+.nav-img2 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    float: left;
+    margin: 0 20px;
+    background-image: url("images/whitebox_2.jpg");
+}
+
+.nav-img3 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    float: left;
+    margin: 0 20px;
+    background-image: url("images/whitebox_3.jpg");
+}
+
+.nav-img4 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    float: left;
+    margin: 0 20px;
+    background-image: url("images/whitebox_4.jpg");
+}
+
+/* -----------------------------------------
+                NAVBAR
+----------------------------------------- */
+
+/* -----------------------------------------
+                MAIN BOXES
+----------------------------------------- */
+
+article {
+    width: 764px;
+    height: 452px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+article > :nth-child(5n) {margin-right: 0;}
+
+.article-item {
+    width: 140px;
+    height: 140px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 0px 16px 16px 0;
+}
+
+.article-item p {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+.article-img1 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    float: left;
+    margin: 0 20px;
+    background-image: url("images/bluebox_1.jpg");
+}
+
+.article-img2 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    float: left;
+    margin: 0 20px;
+    background-image: url("images/bluebox_2.jpg");
+}
+
+
+.article-img3 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    float: left;
+    margin: 0 20px;
+    background-image: url("images/bluebox_3.jpg");
+}
+
+
+.article-img4 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    float: left;
+    margin: 0 20px;
+    background-image: url("images/bluebox_4.jpg");
+}
+
+
+.article-img5 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    float: left;
+    margin: 0 20px;
+    background-image: url("images/bluebox_5.jpg");
+}
+
+
+.article-img6 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    float: left;
+    margin: 0 20px;
+    background-image: url("images/bluebox_6.jpg");
+}
+
+
+.article-img7 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    float: left;
+    margin: 0 20px;
+    background-image: url("images/bluebox_7.jpg");
+}
+
+
+.article-img8 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    float: left;
+    margin: 0 20px;
+    background-image: url("images/bluebox_8.jpg");
+}
+
+
+.article-img9 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    float: left;
+    margin: 0 20px;
+    background-image: url("images/bluebox_9.jpg");
+}
+
+
+.article-img10 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    float: left;
+    margin: 0 20px;
+    background-image: url("images/bluebox_10.jpg");
+}
+
+
+.article-img11 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    float: left;
+    margin: 0 20px;
+    background-image: url("images/bluebox_11.jpg");
+}
+
+/* -----------------------------------------
+                MAIN BOXES
+----------------------------------------- */
+
+/* -----------------------------------------
+                RESPONSIVE
+----------------------------------------- */
+
+@media screen and (max-width: 796px) {
+    article {
+        width: 608px;
+    }
+    article > :nth-child(5n) {margin-right: 16px;}
+    article > :nth-child(4n) {margin-right: 0;}
+}
+
+@media screen and (max-width: 640px) {
+    article {
+        width: 452px;
+    }
+    article > :nth-child(5n) {margin-right: 16px;}
+    article > :nth-child(4n) {margin-right: 16px;}
+    article > :nth-child(3n) {margin-right: 0;}
+    nav {
+        width: 452px;
+    }
+    nav > :nth-child(4n) {margin-right: 16px;}
+    nav > :nth-child(3n) {margin-right: 0;}
+}
+
+@media screen and (max-width: 484px) {
+    article {
+        width: 296px;
+    }
+    article > :nth-child(5n) {margin-right: 16px;}
+    article > :nth-child(4n) {margin-right: 16px;}
+    article > :nth-child(3n) {margin-right: 16px;}
+    article > :nth-child(2n) {margin-right: 0px;}
+    nav {
+        width: 296px;
+    }
+    nav > :nth-child(4n) {margin-right: 16px;}
+    nav > :nth-child(3n) {margin-right: 16px;}
+    nav > :nth-child(2n) {margin-right: 0;}
+}
+
+@media screen and (max-width: 324px) {
+    article {
+        width: 140px;
+    }
+    article > :nth-child(5n) {margin-right: 0;}
+    article > :nth-child(4n) {margin-right: 0;}
+    article > :nth-child(3n) {margin-right: 0;}
+    article > :nth-child(2n) {margin-right: 0;}
+    article > :nth-child(n) {margin-right: 0;}
+    nav {
+        width: 140px;
+    }
+    nav > :nth-child(4n) {margin-right: 16px;}
+    nav > :nth-child(3n) {margin-right: 16px;}
+    nav > :nth-child(2n) {margin-right: 16px;}
+    nav > :nth-child(n) {margin-right: 0;}
+}
+
+/* -----------------------------------------
+                RESPONSIVE
+----------------------------------------- */
